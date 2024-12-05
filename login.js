@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     };
 
     // URL ของ Web app ที่คุณได้จากการ deploy
-    const url = 'https://script.google.com/macros/s/AKfycbxRWyWmkM099aoQZ7fYB_rFuSHyFeBSA1AP79Hc6u1SKEjZDfQuzKrQ_tdsXg9JeRuY/exec'; 
+    const url = 'https://script.google.com/macros/s/AKfycbwqgryPujOxNW8ESby3Z6s0SQ2brDqTNDwwI3TA9o6wVT7u52-Fn9CTmXK2ChzVeRnC/exec'; 
 
     // ส่งข้อมูลไปยัง Google Apps Script
     fetch(url, {
